@@ -1,0 +1,75 @@
+PS C:\Users\User\Documents\terminal> whoami
+utsman\user
+PS C:\Users\User\Documents\terminal> pwd
+
+Path                            
+----                            
+C:\Users\User\Documents\terminal
+
+
+PS C:\Users\User\Documents\terminal> pwd
+
+Path                            
+----                            
+C:\Users\User\Documents\terminal
+
+
+PS C:\Users\User\Documents\terminal> ls
+
+
+    Directory: C:\Users\User\Documents\terminal
+
+
+Mode                 LastWriteTime         Length Name                          
+----                 -------------         ------ ----                          
+-a----        03/08/2026     21.21            288 terminal.txt                  
+
+
+PS C:\Users\User\Documents\terminal> cd ..
+PS C:\Users\User\Documents> cd dokuments
+cd : Cannot find path 'C:\Users\User\Documents\dokuments' because it does not ex
+ist.
+At line:1 char:1
++ cd dokuments
++ ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\User\Documents\dokument 
+   s:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLoc 
+   ationCommand
+ 
+PS C:\Users\User\Documents> dir
+
+
+    Directory: C:\Users\User\Documents
+
+
+Mode                 LastWriteTime         Length Name                          
+----                 -------------         ------ ----                          
+d-----        03/04/2026     13.38                BELAJAR-HTML                  
+d-----        08/06/2026     21.09                Django-hsi                    
+d-----        03/08/2026     21.16                Folder Baru                   
+d-----        21/09/2025     15.59                HTML                          
+d-----        24/09/2025     15.46                java-script                   
+d-----        09/09/2025     21.15                JSON LOCAL                    
+d-----        11/04/2026     20.22                kerja-kelompok                
+d-----        16/06/2026     13.35                kumpulan-vidio-tasmi          
+d-----        19/12/2025     16.03                Muroja'ah_PYTHON              
+d-----        15/10/2025     20.35                my-font                       
+d-----        22/06/2026     19.37                projrct-rumah                 
+d-----        13/12/2025     20.46                Python                        
+d-----        28/01/2026     20.59                Python-oop-intro              
+d-----        09/09/2025     21.16                python3-basic                 
+d-----        10/09/2025     15.45                Rainmeter                     
+d-----        03/08/2026     21.23                terminal                      
+d-----        18/06/2026     21.50                tugas-akhir-semester-2        
+d-----        14/06/2026     08.47                TUGAS-AKHIR-SEMESTER🤕        
+d-----        02/06/2026     20.59                tugas-baru-python             
+d-----        17/02/2026     21.15                tugas-python-akhir            
+d-----        29/04/2026     20.48                webapp                        
+d-----        29/05/2026     21.00                websekolah                    
+d-----        14/06/2026     13.33                Website profil                
+-a----        29/08/2025     16.24       64701312 Git-2.51.0-64-bit.exe         
+-a----        18/05/2026     21.01            182 requirements.txt              
+
+
+PS C:\Users\User\Documents> 
