@@ -71,5 +71,75 @@ d-----        14/06/2026     13.33                Website profil
 -a----        29/08/2025     16.24       64701312 Git-2.51.0-64-bit.exe         
 -a----        18/05/2026     21.01            182 requirements.txt              
 
+PS C:\Users\User\Documents\terminal\ProyekCoding> Get-Location
 
-PS C:\Users\User\Documents> 
+Path                                         
+----                                         
+C:\Users\User\Documents\terminal\ProyekCoding
+
+
+PS C:\Users\User\Documents\terminal\ProyekCoding> mkdir ProyekCoding
+
+
+    Directory: C:\Users\User\Documents\terminal\ProyekCoding
+
+
+Mode                 LastWriteTime         Length Name                          
+----                 -------------         ------ ----                          
+d-----        05/08/2026     20.58                ProyekCoding                  
+
+
+PS C:\Users\User\Documents\terminal\ProyekCoding> cd ProyekCoding
+PS C:\Users\User\Documents\terminal\ProyekCoding\ProyekCoding> New-Item -ItemType File skrip.js
+>> 
+
+
+    Directory: C:\Users\User\Documents\terminal\ProyekCoding\ProyekCoding
+
+
+Mode                 LastWriteTime         Length Name                          
+----                 -------------         ------ ----                          
+-a----        05/08/2026     20.59              0 skrip.js                      
+
+
+PS C:\Users\User\Documents\terminal\ProyekCoding\ProyekCoding> New-Item -ItemType File config.json
+
+
+    Directory: C:\Users\User\Documents\terminal\ProyekCoding\ProyekCoding
+
+
+Mode                 LastWriteTime         Length Name                          
+----                 -------------         ------ ----                          
+-a----        05/08/2026     20.59              0 config.json                   
+
+
+PS C:\Users\User\Documents\terminal\ProyekCoding\ProyekCoding> cp laporan.txt laporan_salinan.txt
+
+PS C:\Users\User\Documents\terminal> cp                    
+
+cmdlet Copy-Item at command pipeline position 1
+Supply values for the following parameters:
+Path[0]: 
+PS C:\Users\User\Documents\terminal> rm
+
+cmdlet Remove-Item at command pipeline position 1
+Supply values for the following parameters:
+Path[0]: ^V
+Path[1]: 
+rm : Illegal characters in path.
+At line:1 char:1
++ rm
++ ~~
+    + CategoryInfo          : InvalidArgument: (C:\Users\User\Documents\terminal\:String) [Remove-Item], ArgumentEx 
+   ception
+    + FullyQualifiedErrorId : ItemExistsArgumentError,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+rm : Cannot find path 'C:\Users\User\Documents\terminal\' because it does not exist.
+At line:1 char:1
++ rm
++ ~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\User\Documents\terminal\:String) [Remove-Item], ItemNotFoun 
+   dException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+ 
+PS C:\Users\User\Documents\terminal> rmdir FolderSampah 
